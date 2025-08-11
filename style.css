@@ -80,3 +80,13 @@ footer .links > a {
     color: rgb(108, 117, 125);
     font-family: 'Times New Roman', Times, serif;
 }
+
+article:nth-child(2n) {
+  background-color: rgb(218, 222, 226);
+}
+
+.news article:nth-child(-n+2) h2::before{
+    content: "NEW ";
+    font-weight: bold;
+    color: #0085a1;
+}
